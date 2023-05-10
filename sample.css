@@ -1,0 +1,311 @@
+*{
+    
+    /* border: 2px solid red; */
+}
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgb(219, 193, 193);
+    
+}
+.child1{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px 60px;
+    width: 180px;
+}
+nav{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    font-weight:bold;
+    font-size: 15px;
+    padding-left: 0px; 
+    cursor:pointer; 
+    margin: auto;
+    justify-content: space-around;
+}
+a{
+   position: relative;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+   color: black;
+   font-size: 20px;
+
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    left: 50%;
+    right: 50%;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover::after{
+    left: 0;
+    right: 0;
+}
+
+.child2{
+    display: flex;
+    align-items: center;
+    border-left: 4px solid rgb(219, 193, 193);
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight:bold;
+    font-size: 16px;
+}
+.phone{
+    display: flex;
+    width: 40px;
+    height: 30px;
+    background-image: url("images/toyo.png");
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -809px -389px;
+}
+.j{
+    cursor: pointer;
+}
+.j:hover{
+    color: #ff0852;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.child3{
+    
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: aliceblue;
+   
+}
+.box1{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-image: url(images/toyo.png);
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -180px 0px;
+    cursor: pointer;
+    transition: 0.3S;
+}
+.box1:hover{
+    transform: rotateZ(10deg);
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-image: url(images/toyo.png);
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -245px 0px;
+    cursor: pointer;
+    transition: 0.3S;
+}
+.box2:hover{
+    transform: rotateZ(10deg);
+}
+.box3{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-image: url(images/toyo.png);
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -307px 6px;
+    cursor: pointer;
+    transition: 0.3S;
+}
+.box3:hover{
+    transform: rotateZ(10deg);
+}
+.box4{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-image: url(images/toyo.png);
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -365px 6px;
+    cursor: pointer;
+    transition: 0.3S;
+}
+.box4:hover{
+    transform: rotateZ(10deg);
+}
+.box5{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-image: url(images/toyo.png);
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -420px 5px;
+    cursor: pointer;
+    transition: 0.3S;
+}
+.box5:hover{
+    transform: rotateZ(10deg);
+}
+.box6{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-image: url(images/toyo.png);
+    background-size: 1200px 1300px;
+    background-repeat: no-repeat;
+    background-position: -490px 6px;
+    cursor: pointer;
+    transition: 0.3S;
+}
+.box6:hover{
+    transform: rotateZ(10deg);
+}
+.one{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0px 60px;
+    border-right: 2px solid gray;
+    
+}
+.six{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.dots{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+}
+.dots img{
+    width: 30px;
+    height: 30px;
+}
+.dots:hover{
+    background-color: #97183e;
+}
+.child4{
+    background-color: #fafafa;
+    display:grid;
+    grid-template-columns: 4fr 3fr;
+    column-gap: 50px;
+    margin-top: 30px;
+}
+.header-text{
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.text1{
+    font-size: 30px;
+    margin: 0px; 
+}
+.text2{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.cont{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.table1{
+    text-align: center;
+    padding: 10px;
+    color: #787878;
+}
+.table1 h1{
+    font-size: 60px;
+    margin: 0px;
+}
+.table1 h3{
+    margin: 0px;
+    text-align:center;
+}
+.table2{
+    display: flex;
+    flex-direction: column;   
+}
+.table2 .text3{
+    font-size: 26px;
+    font-weight: 500; 
+    margin: 0;   
+
+}
+.table2 .text4{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.child5{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    height: 100px;
+    padding-top: 0px;
+}
+.child5 h1{
+    font-size: 35px;
+    
+}
+.child6{
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.child7{
+    background-color:#333;
+    padding:0px 70px;
+}
+.finaltext{
+    display: flex;
+    color: #fff;
+}
+.man{
+    width: 180px;
+    text-align: center;
+}
+.jan{
+    width: 180px;
+    text-align: center;
+}
+.man h3{
+    border-right:2px solid #d7c9c9;
+}
+
+
+
+
+
+
+
+
+
+
+
